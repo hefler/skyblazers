@@ -4,23 +4,12 @@ $app-max-width: 1024px;
 $app-column-width: 360px;
 $mquery-mobile-width: 414px; //iPhone+
 @import "reset";
-@import 'ibm-plex/mono';
+// @import 'ibm-plex/mono';
 @import 'common-styles';
 @import "app-gui/header";
 @import "app-gui/body";
 @import "app-gui/footer";
 
-.logo {
-  display: inline-block;
-  margin-left: 35px;
-  width: 132px;
-  height: 120px;
-  background: url(/assets/logo/skyblazers-notagline.svg) no-repeat;
-  background-size: 131px 120px;
-  > span {
-    display: none;
-  }
-}
 [data-cross-message]::after {
   overflow: hidden;
   position: absolute;
